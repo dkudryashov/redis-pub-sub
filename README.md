@@ -1,6 +1,10 @@
 # redis-pub-sub
-
 Два микросервиса для работы с Redis.
-publish-service - публикует сообщения
-subscribe-service - подписывается на них и логирует
+
+1. publish-service - публикует сообщения
+Запуск $ mvn spring-boot:run
+server.port=8091
+2. subscribe-service - подписывается на них и логирует
+Запуск $ mvn spring-boot:run
+server.port=8092
 
